@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
   s.add_dependency('spree_static_content', '~> 0.60.1')
   s.add_dependency('spree_editor', '~> 0.50.1')
   s.add_dependency('spree_robokassa', '~> 0.50.2')
-  s.add_dependency('spree_yandex_market', '~> 1.2.0')
+  #s.add_dependency('spree_yandex_market', '~> 1.2.0')
   s.add_dependency('spree_online_support', '~> 0.50.0')
   s.add_dependency('spree_address_book', '~> 0.50.1')
   s.add_dependency('spree_dynamic_sitemaps', '~> 0.50.1')
