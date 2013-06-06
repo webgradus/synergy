@@ -4,7 +4,7 @@ namespace :synergy do
     Rake::Task['synergy:install:migrations'].invoke
     Rake::Task['synergy:install:assets'].invoke
     Rake::Task['spree_editor:install'].invoke
-    Rake::Task['spree_yandex_market:install'].invoke
+    #Rake::Task['spree_yandex_market:install'].invoke
     Rake::Task['spree_address_book:install'].invoke
     exec "rails g spree_static_content:install"
   end
